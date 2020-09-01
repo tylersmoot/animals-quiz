@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+
+<body>
+
+    <div class="d-flex justify-content-center p-5 jumbotron">
+      <h1>My Quiz</h1>
+    </div>
+
+    <h3 class="d-flex justify-content-center bg-light p-3">A group of lions is known as?</h3>
+    <section class="questionOne p-3">
+        <span>A. </span><input type="radio" id="answerOne" name="one" value="1a">
+    <label for="1a"> A pride</label><br>
+      <span>B. </span><input type="radio" id="1b" name="one" value="1b">
+      <label for="1b"> A school</label><br>
+      <span>C. </span><input type="radio" id="1c" name="one" value="1c">
+      <label for="1c"> A wolfpack</label>
+    </section>
+
+    
+        <button id="buttonOne" class="btn btn-primary mb-2 ml-3">Check Answer</button><span class="correctOne d-none pl-3">Your answer is <span class="decision">correct</span></span><span id="symbol" class="d-none float-right pr-5 pt-3 justify-content-end">Score : 1/5</span>
+    
+        <br>
+
+    <h3 class="d-flex justify-content-center bg-light p-3">Which animal never sleeps?</h3>
+    <section class="questionTwo p-3">
+    <span>A. </span><input type="radio" id="2a" name="two" value="2a">
+       <label for="2a"> Cat</label><br> 
+    <span>B. </span><input type="radio" id="2b" name="two" value="2b">
+       <label for="2b"> Giraffe</label><br>
+    <span>C. </span><input type="radio" id="answerTwo" name="two" value="2c">
+       <label for="other"> Bullfrog</label>
+    </section>
+
+
+        <button id= "buttonTwo" class="btn btn-primary mb-2 ml-3">Check Answer</button><span class="correctTwo d-none pl-3">Your answer is <span class="decisionTwo">correct</span></span><span id="symbol" class="d-none float-right pr-5 pt-3 justify-content-end">Score : 1/5</span>
+
+        <br>
+
+    <h3 class="d-flex justify-content-center bg-light p-3">Which animal has the longest lifespan?</h3>
+    <section class="questionThree p-3">
+    <span>A. </span><input type="radio" id="3a" name="three" value="3a">
+        <label for="3a"> Crocodile</label><br>
+    <span>B. </span><input type="radio" id="3b" name="three" value="3b">
+        <label for="3b"> Bearded Dragon</label><br>
+    <span>C. </span><input type="radio" id="answerThree" name="three" value="3c">
+        <label for="3c"> Arctic Whale</label>
+    </section>
+
+
+        <button id= "buttonThree" class="btn btn-primary mb-2 ml-3">Check Answer</button><span class="correctThree d-none pl-3">Your answer is <span class="decisionThree">correct</span></span><span id="symbol" class="d-none float-right pr-5 pt-3 justify-content-end">Score : 1/5</span>
+
+        <br>      
+
+    <h3 class="d-flex justify-content-center bg-light p-3">A honeybee has how many eyes?</h3>
+    <section class="questionFour p-3">
+    <span>A. </span><input type="radio" id="answerFour" name="four" value="4a">
+        <label for="4a"> Five</label><br>
+    <span>B. </span> <input type="radio" id="4b" name="four" value="4b">
+        <label for="4b"> Eight</label><br>
+    <span>C. </span><input type="radio" id="4c" name="four" value="4c">
+        <label for="4c"> Twelve</label>
+    </section>   
+    
+         <button id= "buttonFour" class="btn btn-primary mb-2 ml-3">Check Answer</button><span class="correctFour d-none pl-3">Your answer is <span class="decisionFour">correct</span></span><span id="symbol" class="d-none float-right pr-5 pt-3 justify-content-end">Score : 1/5</span>
+
+         <br>
+
+    <h3 class="d-flex justify-content-center bg-light p-3">How many hearts does an Octopus have?</h3>
+    <section class="questionFive p-3">
+    <span>A. </span><input type="radio" id="5a" name="five" value="5a">
+        <label for="5a"> Four</label><br> 
+    <span>B. </span><input type="radio" id="answerFive" name="five" value="5b">
+        <label for="5b"> Three</label><br>
+    <span>C. </span><input type="radio" id="5c" name="five" value="5c">
+        <label for="5c"> Nine</label>
+    </section>  
+    
+         <button id= "buttonFive" class="btn btn-primary mb-2 ml-3">Check Answer</button><span class="correctFive d-none pl-3">Your answer is <span class="decisionFive">correct</span></span><span id="symbol" class="d-none float-right pr-5 pt-3 justify-content-end">Score : 1/5</span>
+
+         <br>         
+
+    
+
+<script src="C:/Exercises/quiz.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
