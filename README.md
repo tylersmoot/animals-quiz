@@ -1,2 +1,2 @@
 # animals-quiz
-A short animal facts quiz
+A short animal facts quiz that I created using html, css and javascript. This was a personal project I started when I began my journey into Javascript. I used functions and dom manipulation to create a multiple choice quiz. A message pops up when you submit the answer informing you if you are right or wrong. If wrong, it prompts you to please try again; if you asnwer the question correctly, all answers will be unclickable leading you to the next question.
